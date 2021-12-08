@@ -1,0 +1,80 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+}
+
+.wrapper{
+    width: 100%;
+    min-height: 100%;
+}
+
+.container {
+    border: 1px solid red;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(220, 255, 250);
+}
+
+.header, .footer {
+    background-color: rgb(0, 180, 141);
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.content {
+    display: flex;
+    margin: 20px 0; 
+    justify-content: space-between;
+    height: 100%;
+}
+
+.content-aside {
+    background-color: rgb(0, 172, 37);
+    /* width: 31%; */
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-article {
+    display: flex;
+    background-color: rgb(251, 163, 0);
+    /* width: 66%; */
+    flex: 2;
+    margin-left: 25px;
+    position: relative;
+    align-items: end;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+
+.content-article span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+
+.content-article-image {
+    background-color: rgb(247, 251, 0);
+    text-align: center;
+    width: 30%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
